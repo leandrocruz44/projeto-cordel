@@ -6,6 +6,7 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 
@@ -15,6 +16,7 @@ header{
     background-color: black;
     font-family: 'Passion One', cursive;
     font-size: 4vw;
+    font-variant: small-caps;
     color: white;
     padding: 50px;
     text-align: center;
@@ -39,13 +41,12 @@ section > p{
     margin: 12vh 20px;
 }
 
+.normal{
+    background-color: white;
+    color: black;
+}
+
 .imagem{
-    /*
-    background-color: black;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    */
     background: black right bottom no-repeat fixed;
     background-size: cover;
     padding: 1px 0px;
@@ -58,7 +59,7 @@ section > p{
     width: fit-content;
     padding: 5px;
     border-radius: 5px;
-    margin:50px 15px ;
+    margin:10vh 15px ;
 }
 
 #joaninha{
